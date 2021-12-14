@@ -182,11 +182,48 @@
     color: var(--purple);
 }
 
+.img-index
+{
+    width: 800px;
+    height: 279px;
+    border-radius: 8px;
+}
 
+.news
+{
+    margin-top: 10px;
+    border-bottom: solid var(--grey);
+}
 
+.news a
+{
+    color: var(--purple);
+    text-decoration: none;
+}
 
+.news span
+{
+    color: var(--purple);
+    font-size: 15px;
+    font-weight: 500;
+}
 
+.news-last
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
+.news-last a
+{
+    color: var(--purple);
+    text-decoration: none;
+}
 
-
+.news-last span
+{
+    color: var(--purple);
+    font-size: 15px;
+    font-weight: 500;
+}
 
