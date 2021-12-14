@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+:root {
+    --purple: #5B4F99;
+    --green: #84CD9F;
+    --light-white: #F9F8FF;
+    --white: #FEFEFE;
+    --grey: #9E9E9E;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    height: 116px;
+    background-color: var(--white);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .2s ease color;
+}
+
+.nav-link:hover {
+    text-decoration:underline;
+    color: var(--purple);
+}
+
+.input-group
+{
+    width: 360px;
+    height: 18px;
+    border-radius: 8px;
+}
+
+.form-control
+{
+    border-color: var(--green);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--light_gray);
+}
+
+.btn.btn-outline-secondary
+{
+    background-color: var(--green);
+    border-color: var(--green);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.fas
+{
+    color: var(--purple);
+}
+
