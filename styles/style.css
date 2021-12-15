@@ -167,6 +167,12 @@
     font-size: 20px;
 }
 
+.img-menu
+{
+    width: 161px;
+    height: 163px;
+}
+
 .futer-text
 {
     color: var(--purple);
